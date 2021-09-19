@@ -1,0 +1,408 @@
+body
+{
+    box-sizing: border-box ;
+    color: #D6001C;
+    font-family: Arial,Helvetica,sans-serif;
+
+}
+.header-content
+{
+    display: flex;
+    justify-content: space-between;
+}
+.container
+{
+    width: 80%;
+    margin: auto;
+}
+.logo
+{
+    width: 30%;
+}
+nav
+{
+    width: 50%;
+    margin: 40px 0 ;
+}
+header nav ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+a
+{
+    text-decoration: none;
+    display: inline-block;
+    color: #D6001C;
+}
+.grow-restaurant
+{
+    margin-bottom: 50px;
+}
+.grow-content 
+{
+    display: flex;
+    height: 110vh;
+    background-color: #EFEFEF;
+}
+.grow-content-background
+{
+    width: 50%;
+    height: 100%;
+    background-image: url(../images/hh.PNG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.grow-content-desc
+{
+    padding: 140px 60px ;
+    width: 40%;
+}
+.grow-content-desc h2 
+{
+    font-size: 250%;
+    line-height: 1.6;
+}
+.grow-content-desc p
+{
+    font-size: 20px;
+    line-height: 1.6;
+}
+.grow-content-desc span
+{
+    display: inline-block;
+    background-color: #D6001C;
+    color: #FFF;
+    padding: 15px 20px;
+    margin-top: 50px;
+}
+.market
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.market-background
+{
+    width: 100%;
+}
+.market-background img
+{
+    width: 100%;
+}
+.market-overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(233, 27, 27, 0.3);
+}
+.market-content
+{
+    color: #FFF;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 190px 0 0 0;
+
+}
+.market-content .youcook ,.wemarket
+{
+    font-size: 45px;
+    font-weight: bold;
+    padding-left: 280px;
+}
+.youcook
+{
+    position: absolute;
+    left: 140px;
+}
+.wemarket
+{
+    position: absolute;
+    top: 250px;
+    font-style: italic;
+}
+
+.market span:first-child
+{
+    display: inline-block;
+    margin-left: 280px;
+    margin-top: 50px;
+}
+.market-btn
+{
+margin-top: 170px;
+}
+.red-btn
+{
+    background-color: #D6001C;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+.red-btn:hover
+{
+    opacity: .7;
+    transition: all .5s;
+}
+.white-btn
+{
+    background-color: transparent;
+    padding: 15px 19px;
+    border: 1px solid #FFF;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.white-btn:hover
+{
+    background-color: #FFF;
+    color: #D6001C;
+    transition: all .5s;
+}
+.heading
+{
+    width: 100%;
+    text-align: center;
+    margin: 150px 0;
+    font-size: 130%;
+}
+.tech
+{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.tech-item
+{
+    max-width: 25%;
+    width: 333px;
+    height: 350px;
+}
+.tech-item img
+{
+    width: 100%;
+    height: 100%;
+}
+.tech-content
+{
+    background-color: #FAF566;
+    text-align: center;
+    position: relative;
+}
+
+.techh
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 120%;
+}
+.whitecolor
+{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 300;
+}
+.problems
+{
+    display: flex;
+    text-align: center;
+}
+.problem-items
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 50px;
+
+}
+.problem-facing
+{
+    margin: 150px 50px;
+    width: 50%;
+    
+}
+.problem-facing p
+{
+    margin-bottom: 40px;
+}
+.problem-content
+{
+    width: 200px;
+    padding: 10px 20px;
+}
+.connect
+{
+    position: relative;
+}
+.connect h3{
+    width: 200px;
+    margin-left: 100px;
+
+}
+.connect-content
+{
+    margin-left: 300px;
+    width: 500px;
+}
+.connect-content h2
+{
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+.connect-content .letconnect
+{
+    background-color: #FFF;
+    padding: 15px 20px;
+    cursor: pointer;
+    color: #D6001C;
+}
+.connect-content .letconnect:hover
+{
+   opacity: .7;
+   transition: all .5s;
+}
+.story
+{
+    background-color: #D6001C;
+    height: 140vh;
+    width: 100%;
+    position: relative;
+    line-height: 1.749;
+}
+
+.story-content
+{
+    position: absolute;
+    width: 300px;
+    top: 260px;
+    left: 200;
+    background-color: #FFF;
+    z-index: 10;
+    padding: 50px;
+}
+.story-img
+{
+    width: 600px;
+    height: 650px;
+    position: absolute;
+    top: 140px;
+    right: 200px;
+}
+.story-img img
+{
+    width: 100%;
+    height: 100%;
+}
+.story-content h4
+{
+    margin: 40px 0
+}
+.evaluate
+{
+    width: 100%;
+    height: 110vh;
+    background-color: #EF99A4;
+    position: relative;
+}
+.form
+{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+  .form-inputs
+{
+    width: 30%;
+}
+.form-desc
+{
+    width: 30%;
+}
+.form-desc
+{
+    text-align: center;
+    padding: 0 ;
+    font-size: 150%;
+}
+.form-desc p
+{
+    margin: 30px 0;
+}
+.form-inputs input ,textarea{
+    margin: 10px 0 ;
+    padding: 12px 3px;
+    width: 100%;
+    outline: none;
+    color: #D6001C;
+    border: 0;
+    border-bottom: 1px solid #D6001C;
+}
+.form-inputs input:hover ,textarea:hover{
+
+    border: 1px solid #D6001C;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #D6001C;
+    opacity: 1; /* Firefox */
+  }
+  .form-inputs span
+  {
+      display: block;
+      margin-top: 30px;
+      text-align: center;
+  }
+  .map
+  {
+      margin: 100px 0  300px;
+  }
+  .mapouter
+  {
+      position:relative;
+      text-align:right;
+      height:500px;
+      width:1333px;
+      }
+      .gmap_canvas 
+        {
+            overflow:hidden;
+        background:none!important;
+        height:500px;
+        width:1333px;
+        }
+footer
+{
+    text-align: center;
+    margin-top: 60px;
+}
+.whatsapp , .chat
+{
+    position: fixed;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 30px;
+    z-index: 100000;
+    cursor: pointer;
+}
+.whatsapp
+{
+    left: 10px;
+    bottom: 10px;
+    background-color: #11ce1a;
+  
+}
+.chat
+{
+    right: 10px;
+    bottom: 10px;
+    background-color: #1c241c;
+}
+.home
+{
+    transition: all .5s;
+}

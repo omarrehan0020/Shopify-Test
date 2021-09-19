@@ -1,0 +1,87 @@
+.salary
+{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.salary-item
+{
+    width: 430px;
+    border: 1px solid #D6001C;
+
+   
+}
+.select h2{
+    font-size: 3rem;
+    position: relative;
+}
+.select h2 span
+{
+    position: absolute;
+    top: -10px;
+    left: 140px;
+    font-size: 1.7rem;
+    font-weight: 300;
+}
+.select > span
+{
+    margin-top: -45px;
+    font-size: 10px;
+    display: inline-block;
+}
+.select p
+{
+    margin-bottom: 30px;
+}
+.select p
+{
+    margin-top: 30px;
+}
+.select .red-btn
+{
+    position: absolute;
+    width: 220px;
+    margin: auto 0 100px 0;
+    font-size: 20px;
+    bottom: 782px;
+    left: 80px;
+}
+.select
+{
+    border-bottom: 1px solid #D6001C;
+    padding-bottom: 20px;
+    padding: 20pxpx 10px ;
+    height: 350px;
+}
+.salary-content
+{
+    padding-top: 30px;
+}
+.salary-item span:first-child
+{
+    padding: 5px;
+    font-size: 16px;
+    margin-top: -10px;
+    display: inline-block;
+    cursor: auto;
+}
+.salary-item span:hover
+{
+    opacity: 1;
+}
+.select2
+{
+    margin-top: -37px;
+    background-color: #FDF0F2;
+    height: 372px;
+}
+.select2 h3
+{
+    padding-top: 25px;
+}
+.salary-item
+{
+    position: relative;
+}
